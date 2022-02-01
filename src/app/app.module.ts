@@ -7,6 +7,7 @@ import { GameGaborComponent } from './game-gabor/game-gabor.component';
 import { GameMatch3Component } from './game-match3/game-match3.component';
 import { MenuComponent } from './menu/menu.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PageNotFoundBackgroundComponent } from './page-not-found-background/page-not-found-background.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     GameGaborComponent,
     GameMatch3Component,
     MenuComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PageNotFoundBackgroundComponent
   ],
   imports: [
     BrowserModule,
